@@ -1,0 +1,55 @@
+﻿Images options,Scripts options,CSS options,URLs options
+Prefetch image ,Prefetch script,Prefetch css,Preconnect url
+Prefetch image ,Prefetch script,Prefetch css,None url
+Prefetch image ,Prefetch script,Preload css,Preconnect url
+Prefetch image ,Prefetch script,Preload css,None url
+Prefetch image ,Prefetch script,None css,Preconnect url
+Prefetch image ,Prefetch script,None css,None url
+Prefetch image ,Preload script,Prefetch css,Preconnect url
+Prefetch image ,Preload script,Prefetch css,None url
+Prefetch image ,Preload script,Preload css,Preconnect url
+Prefetch image ,Preload script,Preload css,None url
+Prefetch image ,Preload script,None css,Preconnect url
+Prefetch image ,Preload script,None css,None url
+Prefetch image ,None script,Prefetch css,Preconnect url
+Prefetch image ,None script,Prefetch css,None url
+Prefetch image ,None script,Preload css,Preconnect url
+Prefetch image ,None script,Preload css,None url
+Prefetch image ,None script,None css,Preconnect url
+Prefetch image ,None script,None css,None url
+Preload image,Prefetch script,Prefetch css,Preconnect url
+Preload image,Prefetch script,Prefetch css,None url
+Preload image,Prefetch script,Preload css,Preconnect url
+Preload image,Prefetch script,Preload css,None url
+Preload image,Prefetch script,None css,Preconnect url
+Preload image,Prefetch script,None css,None url
+Preload image,Preload script,Prefetch css,Preconnect url
+Preload image,Preload script,Prefetch css,None url
+Preload image,Preload script,Preload css,Preconnect url
+Preload image,Preload script,Preload css,None url
+Preload image,Preload script,None css,Preconnect url
+Preload image,Preload script,None css,None url
+Preload image,None script,Prefetch css,Preconnect url
+Preload image,None script,Prefetch css,None url
+Preload image,None script,Preload css,Preconnect url
+Preload image,None script,Preload css,None url
+Preload image,None script,None css,Preconnect url
+Preload image,None script,None css,None url
+None image,Prefetch script,Prefetch css,Preconnect url
+None image,Prefetch script,Prefetch css,None url
+None image,Prefetch script,Preload css,Preconnect url
+None image,Prefetch script,Preload css,None url
+None image,Prefetch script,None css,Preconnect url
+None image,Prefetch script,None css,None url
+None image,Preload script,Prefetch css,Preconnect url
+None image,Preload script,Prefetch css,None url
+None image,Preload script,Preload css,Preconnect url
+None image,Preload script,Preload css,None url
+None image,Preload script,None css,Preconnect url
+None image,Preload script,None css,None url
+None image,None script,Prefetch css,Preconnect url
+None image,None script,Prefetch css,None url
+None image,None script,Preload css,Preconnect url
+None image,None script,Preload css,None url
+None image,None script,None css,Preconnect url
+None image,None script,None css,None url

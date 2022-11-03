@@ -1,15 +1,25 @@
-# noinspection PyUnusedLocal,PyUnusedLocal
-def main(device, *args, **kwargs):
-    """ Enable for Web Experiments using Chrome
-    # Tap coordinates can be found by enabling 'Pointer location' in Developer options
-    # Accept Chrome policy prompts
-    device.shell('input tap 600 1420')
-    device.shell('input tap 200 1420')
-    
-    # Enable permissions for Chrome
-    device.shell('pm grant com.android.chrome android.permission.RECORD_AUDIO')
-    device.shell('pm grant com.android.chrome android.permission.CAMERA')
-    device.shell('pm grant com.android.chrome android.permission.WRITE_EXTERNAL_STORAGE')
-    device.shell('pm grant com.android.chrome android.permission.READ_EXTERNAL_STORAGE')
-    """
-    pass
+import time
+from AndroidRunner.Device import Device
+
+default_wait_time = 4
+
+def tap(device: Device, x: int, y: int, sleep = 4) -> None:
+    device.shell('input tap %s %s' % (x, y))
+    # We need to wait for the display to update after the last click.
+    # The time to update is vary. 
+    # time.sleep(1)
+
+
+def main(device: Device, *args, **kwargs) -> None:
+    # Do task 1
+    # click ____
+    time.sleep(6)
+    tap(device, 516, 1930)
+
+
+    tap(device, 560, 2174)
+
+    # click ____
+    tap(device, 931, 2213)
+
+   
